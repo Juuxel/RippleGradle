@@ -18,5 +18,6 @@ class RipplePlugin : Plugin<Project> {
         extension.cache = target.projectDir.toPath().resolve(".gradle").resolve("ripple-cache")
         extension.fileCollectionGetter = { target.files(it) }
         extension.fileResolver = target::file
+        extension.dependencyCreator = { target.dependencies.create(it) }
     }
 }

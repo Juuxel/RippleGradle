@@ -2,7 +2,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     `java-library`
-    kotlin("jvm") version "1.4.21"
+    kotlin("jvm") version "1.3.72"
     `java-gradle-plugin`
     `maven-publish`
     id("org.cadixdev.licenser") version "0.5.0"
